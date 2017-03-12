@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<script src="js/pgb.js"></script>
+		<script src="cordova.js"></script>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+	<body onload="init()">
+		
+		<!-- My app main page -->
+		<div data-role="page" id="pageone">
+		  <div data-role="header">
+			<h1>BusinessCardGUI</h1>
+		  </div>
+		  <div data-role="main" class="ui-content">
+			<ul data-role="listview">
+			    <li><a href="#popup1" data-rel="popup">Masuria</a></li>
+			    <li><a href="#popup2" data-rel="popup">Pomerania</a></li>
+			    <li><a href="#popup3" data-rel="popup">The Tatra Mountains</a></li>
+			</ul>
+			<div data-role="popup" id="popup1">
+				<img src="img/masuria.jpg" alt="">
+			</div>
+
+			<div data-role="popup" id="popup2">
+				<img src="img/pomorze.jpg" alt="">
+			</div>
+
+			<div data-role="popup" id="popup3">
+				<img src="img/tatry.jpg" alt="">
+			</div>
+
+		  </div>
+		  <div data-role="footer" data-position="fixed">
+			<h1>(c) Łukasz Kruszec</h1>
+		  </div> 
+		</div> 	
+	
+
+	</body>
+</html>
